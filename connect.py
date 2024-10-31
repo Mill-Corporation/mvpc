@@ -42,7 +42,7 @@ def read_update(deviceId):
             time.sleep(8)
 
             print("cp")
-            cmdReboot = "cp -rf mill_image_api_test/* MVPC/"
+            cmdReboot = "cp -rf mill_image_api_test/* mvpc/"
             resultCapture = subprocess.run(cmdReboot, shell=True)
             time.sleep(3)
             

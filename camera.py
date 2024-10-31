@@ -20,8 +20,8 @@ class CAMERA():
         '''
         self.js_camera = {
             "camera_frame_length": 3,
-            "camera_capture_cycle": 60,
-            "camera_capture_delay": 2,
+            "camera_capture_cycle": 120,
+            "camera_capture_delay": 5,
             "camera_rotate": -1,
             "camera_capture_timeout": 20
         }
