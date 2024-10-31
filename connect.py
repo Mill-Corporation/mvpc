@@ -63,6 +63,7 @@ def read_update(deviceId):
 
 
 if __name__ == '__main__':
+    time.sleep(10)
     if len(sys.argv) < 2:
         print('장치id를 입력하지 않았습니다.')
         print('% python sender.py 1234')

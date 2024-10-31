@@ -8,6 +8,7 @@ real_version = 1111
 ALIVE_TIME = 30 # send alive in 30s
 
 if __name__ == '__main__':
+    time.sleep(10)
     if len(sys.argv) < 2:
         print('장치id를 입력하지 않았습니다.')
         print('% python sender.py 1234')
