@@ -28,10 +28,5 @@ sudo sed -i "s/MVPC9999/MVPC$NEW_NUMBER/g" /etc/hostname
 # 4. /etc/hosts 파일에서 9999를 NEW_NUMBER로 변경
 sudo sed -i "s/MVPC9999/MVPC$NEW_NUMBER/g" /etc/hosts
 
-# 5. 히스토리 삭제
-history -c
-cat /dev/null > ~/.bash_history
-history -c
-
 echo "Script execution completed. Please reboot the system for changes to take effect."
 
